@@ -131,7 +131,7 @@ sudo apt update
 sudo apt install openjdk-8-jdk
 ```
 
-Verify the instllation
+Verify the installation
 
 ```sh
 java -version
@@ -160,9 +160,28 @@ source ~/.bashrc
 sudo chmod 777 -R /dev/kvm
 ```
 
+set SDK manager
+
+Click AVD manager
+
 ![androidemulator1](images/androidemulator1.png)
 ![androidemulator2](images/androidemulator2.png)
 ![androidemulator3](images/androidemulator3.png)
+
+## Make shortcut
+
+You can create a file "studio.desktop" in /usr/share/applications with the following contents
+
+```sh
+[Desktop Entry]
+Name=Android Studio
+Comment=Android Studio
+Exec=/opt/android-studio/bin/studio.sh
+Icon=/opt/android-studio/bin/studio.png
+Terminal=false
+Type=Application
+Categories=Development
+```
 
 ## Useful resources and links
 
