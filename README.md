@@ -63,7 +63,7 @@ const App = props => {
 ```mermaid
     graph TD
         A[Create a New React Native App] --> B(Expo CLI/Tool)
-        A[Create a New React Native App] --> C (React Native CLI)
+        A[Create a New React Native App] --> C(React Native CLI)
 ```
 
 * Expo CLI/Tool
